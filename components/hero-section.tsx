@@ -6,7 +6,7 @@ import ColourfulText from "./ui/colourful-text";
 export default function LandingPage() {
   return (
     <main >
-      <div className="h-[20rem] max-w-11/12 mx-auto">
+      <div className="h-[20em] max-w-11/12 mx-auto">
         <TextHoverEffect text="PASTE IT" />
       </div>
       <h1 className="text-xl md:text-3xl lg:text-5xl font-bold text-center relative z-2 font-sans">
