@@ -57,6 +57,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ 
           message: 'Text saved successfully',
           code: pasteCode, 
+          link : `${request.nextUrl.origin}/view?code=${pasteCode}`,
           expiresAt: new Date(Date.now() + PASTE_EXPIRY_TIME * 1000).toISOString()
         }, { status: 201 });
       }

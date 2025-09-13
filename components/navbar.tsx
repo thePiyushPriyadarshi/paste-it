@@ -18,7 +18,14 @@ export default function Navbar() {
             <div className="w-9 h-9 flex items-center justify-center rounded-lg bg-primary text-primary-foreground font-semibold">
               P
             </div>
-            <span className="font-semibold text-lg text-primary">Paste It</span>
+            <div className="flex flex-col leading-tight">
+              <span className="font-semibold text-lg text-primary">
+                Paste It
+              </span>
+              <span className="text-xs text-muted-foreground">
+                by BugHook
+              </span>
+            </div>
           </Link>
 
           <div className="flex items-center gap-4">
